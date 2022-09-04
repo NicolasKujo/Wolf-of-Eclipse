@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{background-color: rgb(8, 8, 10);
+    margin:0%;
+}
+
+h1{text-align: center;
+    letter-spacing: 2px;
+    line-height: 110%;
+    font-family: 'Anton', sans-serif;
+}
+
+a{text-align: center;
+    word-spacing: 4px;
+    line-height: 150%;
+    font-family: 'Balsamiq Sans', sans-serif;
+    text-indent: 50px;
+}
+
+#top{background-color: rgb(4, 5, 10);
+    padding: 7px;
+    text-align: center;
+}
+
+#titulo{color: rgb(163, 1, 36);
+    text-align: center;
+    padding: 1%;
+    margin: 0px;
+}
+
+#linkinicial {background-color:rgb(163, 1, 36);;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 500px;
+    padding-right: 500px;
+    border-radius: 10px;
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+#linkinicial:hover{background-color: rgb(11, 11, 14);
+    color: rgb(163, 1, 36);
+    border-radius: 5px;
+    border: solid 1px rgb(0, 0, 0);
+    position: relative;
+}
+
+#Slider{text-align: center;
+    position: relative;
+}
+
+#link1{color: rgb(219, 219, 219);
+    font-family: 'Balsamiq Sans', cursive;
+    margin-right: 80px;
+    display: block;
+    text-decoration: none;
+}
+
+#image{width: 600px;
+    margin: auto;
+    display: block;
+    border-right: solid black;
+    border-left: solid black;
+}
+
+#image1{width: 600px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    border-right: solid black;
+    border-left: solid black;
+}
+
+#image2{width: 600px;
+    margin: auto;
+    height: 500px;
+    display: block;
+    border-right: solid black;
+    border-left: solid black;
+    color: black;
+}
+
+::-webkit-scrollbar{background-color: rgb(4, 5, 10);
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb{background-color: rgb(163, 1, 36);
+    border-radius: 10px;
+}
